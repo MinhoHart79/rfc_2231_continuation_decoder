@@ -1,0 +1,14 @@
+[project]
+name = "rfc-2231-continuation-decoder"
+version = "0.1.0"
+description = "Decodes RFC 2231 encoded MIME parameters in Content-Type and Content-Disposition headers"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
