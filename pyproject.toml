@@ -1,6 +1,6 @@
 [project]
 name = "rfc-2231-continuation-decoder"
-version = "0.1.0"
+version = "0.1.1"
 description = "Decodes RFC 2231 encoded MIME parameters in Content-Type and Content-Disposition headers"
 requires-python = ">=3.10"
 dependencies = []
